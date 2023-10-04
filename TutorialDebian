@@ -1,0 +1,41 @@
+# Instalación y configuración de un servidor isc-dhcp-server en Debian
+
+Para instalar un servidor isc-dhcp-server en Debian se deben seguir los siguientes pasos:
+
+1. Configurar la tarjeta de red del servidor con una IP fija. 
+
+2. Comprobar que se ha aplicado la IP está correctamente configurada y anotar el nombre de la tarjeta con el siguiente comando:  
+
+```
+ip addr
+```
+
+
+3. Instalar el servidor DHCP. Para ello ejecuta el siguiente comando: 
+
+`apt install isc-dhcp-server`
+
+4. Trozo de código:`
+
+``` bash
+ip address
+ls -lat
+cd ..
+su -
+```
+
+[Enlace](https://dom.tld/una%20pagina) 
+
+Me gusta el editor [Editor Markdown](https://editormarkdown.com "Mejor editor Markdown")
+
+Esta es una foto de ![Gloria y Rober](/foto.jpg "Gloria y Rober")
+
+
+
+
+
+
+
+
+
+
